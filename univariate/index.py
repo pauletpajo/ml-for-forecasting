@@ -66,7 +66,7 @@ for filename in os.listdir(data_directory):
     csv_mae = os.path.join(eval_directory, 'mae.csv')
     csv_mape = os.path.join(eval_directory, 'mape.csv')
     csv_mse = os.path.join(eval_directory, 'mse.csv')
-    csv_rmse = os.path.join(eval_directory, 'mae.csv')
+    csv_rmse = os.path.join(eval_directory, 'rmse.csv')
 
     new_row_mae = pd.DataFrame(
         [
